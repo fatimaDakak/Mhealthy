@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\dakak\eclipse-workspace\Projet Java\Mhealthy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2048984473.index
+1764091421.index
+573576038.index
+1789939553.index
+901624096.index
+691051796.index

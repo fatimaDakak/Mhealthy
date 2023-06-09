@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+   
+    <servlet>
+        <servlet-name>Log</servlet-name>
+        <servlet-class>com.myapp.servlets.Log</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Log</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Sign</servlet-name>
+        <servlet-class>com.myapp.servlets.Sign</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Sign</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>com.myapp.servlets.Home</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>Emergency</servlet-name>
+        <servlet-class>com.myapp.servlets.Emergency</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Emergency</servlet-name>
+        <url-pattern>/contacts</url-pattern>
+    </servlet-mapping>
+  
+		<servlet>
+		    <servlet-name>DeleteContact</servlet-name>
+		    <servlet-class>com.myapp.servlets.DeleteContact</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		    <servlet-name>DeleteContact</servlet-name>
+		    <url-pattern>/DeleteContactById</url-pattern>
+		</servlet-mapping>
+
+   
+    
+     <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>com.myapp.servlets.Test</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.myapp.servlets.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Interpreter</servlet-name>
+        <servlet-class>com.myapp.servlets.Interpreter</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Interpreter</servlet-name>
+        <url-pattern>/tips</url-pattern>
+    </servlet-mapping>
+    
+     <listener>
+    <listener-class>com.myapp.servlets.MySessionListener</listener-class>
+</listener>
+
+     
+</web-app>
