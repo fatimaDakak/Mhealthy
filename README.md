@@ -5,6 +5,9 @@ One of the key design patterns I implemented in the app is the Interpreter patte
 
 Additionally, I incorporated the Observer pattern to ensure the safety and well-being of users. The app allows users to add emergency contacts, and in case of a distressing mood, the app automatically notifies the designated contacts by sending SMS using twilio sms api 🆘
 
+Front-end: Html,Css,Javascript,Bootstrap
+Back-end: Java ee.
+
 Here is a demonstrative video :
 
 https://github.com/fatimaDakak/Mhealthy/assets/104937526/4ea1ec21-e48f-4828-8ece-bd33681ff90d
